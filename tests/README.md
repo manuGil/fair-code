@@ -4,3 +4,5 @@ Always add tests for you code. If you're developing with Python you can use one 
 
 - [Unittest](https://docs.python.org/3/library/unittest.html)
 - [Py.test](https://docs.pytest.org/)
+
+> This file can be removed once you have understood the importance of writing test for your code.

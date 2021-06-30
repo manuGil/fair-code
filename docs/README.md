@@ -10,6 +10,3 @@ Split documentation in two types: end-user documentation and developer's documen
 
 - Docstrings, a.k.a comment the code
 - Write lengthy explanations using dedicated documentation generators, e.g. [Sphinx](https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html), [JupyterBook](https://jupyterbook.org/) 
-
-
-
