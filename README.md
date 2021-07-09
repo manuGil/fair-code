@@ -64,7 +64,48 @@ When ever relevant split the installation procedure for users and developers.
 
 1. [Always decide on a license for your code. If no licensing is stated, the default of "no license" is "no one can make copies or derivative works of your code".] 
 
-[Under the current [guidelines or research software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf), TU Delft encorage the use of open source licenses for research software. Use the decision three below to determine if the software you intend to develop can be published as open source. You can also ask for help to the [Data Steward in your Faculty](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact) ]
+[Under the current [guidelines or research software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf), TU Delft encorage the use of open source licenses for research software. Use the decision three below to determine if the software you intend to develop can be published as open source (OS). You can also ask for help to the [Data Steward in your Faculty](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact) ]
+
+```flow
+st=>start: Start
+e=>end: End
+cond1=>condition: Is the work directly 
+founded by TU Delft?
+cond2=>condition: Are ther legal restrictions
+(contracts, export control)?
+cond3=>condition: Did you link to, include or
+use lines of code from others?
+cond4=>condition: Do you with to commercially 
+exploit the software or
+offer consultancy services?
+cond5=>condition: Will you publicly publish under 
+a pre-approved OSS licences?
+conda=>condition: Do others hold right 
+to the work?
+condb=>condiition: Are you sure you're allowed
+to use their code in
+a compatible manner?
+condac=>condition: Does the software present
+a novel solution to
+a technical problem?
+op1=operation: Contact Data Steward
+for guidence
+op2=>operation: Fill in an IDF
+op3=>operation: Have software registered
+as OS
+
+st->cond1
+cond1(yes)->cond2
+cond1(no)->conda
+cond2(yes)->op1
+cond2(no)->cond3
+conda(yes)->op1
+conda(no)->cond2
+
+```
+
+
+
 
 [If usising an open source license, you can select one of the followings:]
 
