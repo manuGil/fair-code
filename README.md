@@ -64,50 +64,12 @@ When ever relevant split the installation procedure for users and developers.
 
 1. [Always decide on a license for your code. If no licensing is stated, the default of "no license" is "no one can make copies or derivative works of your code".] 
 
-[Under the current [guidelines or research software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf), TU Delft encorage the use of open source licenses for research software. Use the decision three below to determine if the software you intend to develop can be published as open source (OS). You can also ask for help to the [Data Steward in your Faculty](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact) ]
+[Under the current [guidelines or research software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf), TU Delft encorage the use of open source licenses for research software. Use the decision three below to determine if the software you intend to develop can be published as Open Source Software (OSS). You can also ask for help to the [Data Steward in your Faculty](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact)]
 
-```flow
-st=>start: Start
-e=>end: End
-cond1=>condition: Is the work directly 
-founded by TU Delft?
-cond2=>condition: Are ther legal restrictions
-(contracts, export control)?
-cond3=>condition: Did you link to, include or
-use lines of code from others?
-cond4=>condition: Do you with to commercially 
-exploit the software or
-offer consultancy services?
-cond5=>condition: Will you publicly publish under 
-a pre-approved OSS licences?
-conda=>condition: Do others hold right 
-to the work?
-condb=>condiition: Are you sure you're allowed
-to use their code in
-a compatible manner?
-condac=>condition: Does the software present
-a novel solution to
-a technical problem?
-op1=operation: Contact Data Steward
-for guidence
-op2=>operation: Fill in an IDF
-op3=>operation: Have software registered
-as OS
-
-st->cond1
-cond1(yes)->cond2
-cond1(no)->conda
-cond2(yes)->op1
-cond2(no)->cond3
-conda(yes)->op1
-conda(no)->cond2
-
-```
+![Open Source Software decision tree](img/decision-oss.png "Open source software decision tree")
 
 
-
-
-[If usising an open source license, you can select one of the followings:]
+[If using an open source license, select one of the followings **pre-approved**:]
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -125,8 +87,7 @@ conda(no)->cond2
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-2. [Include a the license text in a LICEnSE file. See example in the `LICENCE` file in this repo]
-
+2. [Include a copy the license text in a LICEnSE file. See example in the `LICENCE` file in this repo.]
 
 ### Citation
 
