@@ -68,7 +68,6 @@ When ever relevant split the installation procedure for users and developers.
 
 ![Open Source Software decision tree](img/decision-oss.png "Open source software decision tree")
 
-
 [If using an open source license, select one of the followings **pre-approved**:]
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
@@ -93,4 +92,4 @@ When ever relevant split the installation procedure for users and developers.
 
 [Include a [CCF file (Citaion File Format)](https://citation-file-format.github.io/). See example in this repo: `CITATION.cff`. You can easily create the content of a CCF using [this tool](https://citation-file-format.github.io/cff-initializer-javascript/). ]
 
-[ CCF files can be converted to a multitude of formats, including BibTex,  EndNote, codemeta, plain JSON, schema.org, RIS, and Zenodo JSON ]
+[CCF files can be converted to a multitude of formats, including BibTex,  EndNote, codemeta, plain JSON, schema.org, RIS, and Zenodo JSON ]
