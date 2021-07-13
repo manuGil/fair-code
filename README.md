@@ -1,6 +1,6 @@
 # [Repository Title]
 
-*Delete this text belowed when used in your repository*
+*Delete this text belowed when using this template in your repository*
 
 **Purpose**
 
@@ -10,28 +10,28 @@ This repository provide a template to make your software project more compliant 
 
 1. Create a new repository using this template.
 2. Clone the reposiotry to your local machine.
-3. Edit the text between []. Explanation of the expected conted for each section appear between [], and they should be removed. Leave text ousite [] unchanged.
+3. Edit the text between [ ]. Explanations of the expected content for each section appear between [], and they should be removed. Leave text ousite [] unchanged.
 4. Start coding
 
-*Delete this text above when used in your repository*
+*Delete this text above when this template in your repository*
 
 [In two of three sentences describe what is the purpose of the repository]
 
+[Repository Description: In two or three sentences, describe the purpose of the  repository]
+
 ## Installation
 
-[Discribe the process of installing the code in each of the intented platforms (e.g. Window 10, MacOS, etc.]
-When ever relevant split the installation procedure for users and developers.
+[Describe the installation and environment setup process to work with the code in each of the intended platforms (e.g. Window 10, MacOS, etc. Whenever relevant, write separate sections on installation procedures for users and developers.]
 
 ### For Users
 
 #### [For Patform A]
 
 **Requirements** 
-- [List the sofware or technologies the code depends on, and add hyperlink to the sources whenever they exists.]
-- [Also state any relevant hardware requirements.]
+- [List the software and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
+- [State any relevant hardware requirements.]
 
-[List and describe each step required to install the software. Use a description/example pattent.]
-[For example:]
+[List and describe each step required to install the software. Use a description/example format.] [For example:]
 
 [1. Install dependencies ]
 
@@ -44,11 +44,10 @@ When ever relevant split the installation procedure for users and developers.
 #### [For Patform A]
 
 **Requirements** 
-- [List the sofware or technologies the code depends on, and add hyperlink to the sources whenever they exists.]
-- [Also state any relevant hardware requirements.]
+- [List the software and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
+- [State any relevant hardware requirements.]
 
-[List and describe each step required to install the software. Use a description/example pattent.]
-[For example:]
+[List and describe each step required to install the software. Use a description/example format.] [For example:]
 
 [1. Install dependencies ]
 
@@ -62,13 +61,13 @@ When ever relevant split the installation procedure for users and developers.
 
 ### License
 
-1. [Always decide on a license for your code. If no licensing is stated, the default of "no license" is "no one can make copies or derivative works of your code".] 
+1. [Always decide on a license for your code. If no licensing is stated, the default of "no license" is "no one can make copies or derivative works of your code".]
 
-[Under the current [guidelines or research software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf), TU Delft encorage the use of open source licenses for research software. Use the decision three below to determine if the software you intend to develop can be published as Open Source Software (OSS). You can also ask for help to the [Data Steward in your Faculty](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact)]
+[Under the current [guidelines or research software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf), TU Delft encourages the use of open source licenses for research software. Use the decision three below to determine if the software you intend to develop can be published as Open Source Software (OSS). You can also ask for help to the [Data Steward in your Faculty](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact)]
 
 ![Open Source Software decision tree](img/decision-oss.png "Open source software decision tree")
 
-[If using an open source license, select one of the followings **pre-approved**:]
+[If using an open source license, select one of the followings **pre-approved** licences:]
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -86,7 +85,7 @@ When ever relevant split the installation procedure for users and developers.
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-2. [Include a copy the license text in a LICEnSE file. See example in the `LICENCE` file in this repo.]
+2. [Include a copy of the license text in a LICENSE file. See example in the LICENSE file in this repo.]
 
 ### Citation
 
