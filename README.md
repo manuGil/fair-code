@@ -4,7 +4,7 @@
 
 **Purpose**
 
-This repository provide a template to make your software project more compliant with the FAIR principles.
+This repository provide a template to make your software project more compliant with the [FAIR principles.](https://fair-software.nl/)
 
 **How to use this template**
 
@@ -14,6 +14,8 @@ This repository provide a template to make your software project more compliant 
 4. Start coding
 
 *Delete this text above when this template in your repository*
+
+-----
 
 [In two of three sentences describe what is the purpose of the repository]
 
