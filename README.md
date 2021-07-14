@@ -30,11 +30,11 @@ This repository provide a template to make your software project more compliant 
 
 [Describe the steps  that users (not developers) should follow to install the code in each of the intended platforms (e.g. Window 10, MacOS, etc.).]
 
-### [For Patform A]
-
 **Requirements** 
-- [List the software and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
+- [List the software, OS, and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
 - [State any relevant hardware requirements.]
+
+### [For Patform A]
 
 [List and describe each step required to install the software. Use a description/example format. For example:]
 
