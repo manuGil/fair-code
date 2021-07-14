@@ -9,7 +9,7 @@ This repository provide a template to make your software project more compliant 
 **How to use this template**
 
 1. Create a new repository using this template.
-2. Clone the your reposiotry.
+2. Clone your reposiotry.
 3. Edit the text between [ ] in the README and CONTRIBUTING file. Explanations of the expected content for each section appear between [ ], and they should be removed. Leave text ousite [ ] unchanged.
 4. Start coding
 
@@ -18,10 +18,12 @@ This repository provide a template to make your software project more compliant 
 [The organization of your source code depends on the progaming language and the purpose of the code. However, here are some general recommendations:
 
 1. Organize your source code in directories. Create a root-directory for the coder with the same name as repository. 
-2. In the root directory include a tests directory for writing test for the source code. For example, in this template source code should go in the `fair-code` directory.
+2. In the root directory include a tests directory for writing test for the source code. For example, in this template, source code should go in the `repo-template` directory.
 3. As the source code grows, keep scripts organized in sub-directories, the rule of thrumb here is to keep related scripts together.
 4. Use meaningful name for directories and scripts, and choose file names carefully.
 5. Separate data from source code.]
+
+> Important: when using this template, keep the stucture suggested in `repo-template`, but change the name to match you repository's name. 
 
 *Delete this text above when this template in your repository*
 
