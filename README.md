@@ -9,31 +9,34 @@ This repository provide a template to make your software project more compliant 
 **How to use this template**
 
 1. Create a new repository using this template.
-2. Clone the reposiotry to your local machine.
-3. Edit the text between [ ]. Explanations of the expected content for each section appear between [], and they should be removed. Leave text ousite [] unchanged.
+2. Clone the your reposiotry.
+3. Edit the text between [ ] in the README and CONTRIBUTING file. Explanations of the expected content for each section appear between [ ], and they should be removed. Leave text ousite [ ] unchanged.
 4. Start coding
+
+**How to organize source code**
+
+[The organization of your source code depends on the progaming language and the purpose of the code. However, here are some general recommendations:
+
+1. Organize your code in directories. Use a single derectory for source code that belongs together, e.g. for each project.
+2. Use meaningful name for directories and scripts, and choose file names carefully.
+3. Separate data from source code.]
+
 
 *Delete this text above when this template in your repository*
 
------
-
-[In two of three sentences describe what is the purpose of the repository]
-
-[Repository Description: In two or three sentences, describe the purpose of the  repository]
+[Repository Description: In two or three sentences, describe the purpose of the repository: **what is this repository for?**]
 
 ## Installation
 
-[Describe the installation and environment setup process to work with the code in each of the intended platforms (e.g. Window 10, MacOS, etc. Whenever relevant, write separate sections on installation procedures for users and developers.]
+[Describe the steps  that users (not developers) should follow to install the code in each of the intended platforms (e.g. Window 10, MacOS, etc.).]
 
-### For Users
-
-#### [For Patform A]
+### [For Patform A]
 
 **Requirements** 
 - [List the software and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
 - [State any relevant hardware requirements.]
 
-[List and describe each step required to install the software. Use a description/example format.] [For example:]
+[List and describe each step required to install the software. Use a description/example format. For example:]
 
 [1. Install dependencies ]
 
@@ -41,23 +44,7 @@ This repository provide a template to make your software project more compliant 
 [$ pip install -r requirements.txt]
 ```
 
-### For Developers
-
-#### [For Patform A]
-
-**Requirements** 
-- [List the software and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
-- [State any relevant hardware requirements.]
-
-[List and describe each step required to install the software. Use a description/example format.] [For example:]
-
-[1. Install dependencies ]
-
-```bash
-[$ pip install -r requirements.txt]
-```
-
-### [Collaboration Guidelines]
+### [Contributing Guidelines]
 
 [ Include a `CONTRIBUTING.md` files ]
 
