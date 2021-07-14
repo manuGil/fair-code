@@ -17,10 +17,11 @@ This repository provide a template to make your software project more compliant 
 
 [The organization of your source code depends on the progaming language and the purpose of the code. However, here are some general recommendations:
 
-1. Organize your code in directories. Use a single derectory for source code that belongs together, e.g. for each project.
-2. Use meaningful name for directories and scripts, and choose file names carefully.
-3. Separate data from source code.]
-
+1. Organize your source code in directories. Create a root-directory for the coder with the same name as repository. 
+2. In the root directory include a tests directory for writing test for the source code. For example, in this template source code should go in the `fair-code` directory.
+3. As the source code grows, keep scripts organized in sub-directories, the rule of thrumb here is to keep related scripts together.
+4. Use meaningful name for directories and scripts, and choose file names carefully.
+5. Separate data from source code.]
 
 *Delete this text above when this template in your repository*
 
