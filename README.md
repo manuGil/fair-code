@@ -51,7 +51,7 @@ This repository provide a template to make your software project more compliant 
 
 [ Include a `CONTRIBUTING.md` files ]
 
-### License
+## License
 
 1. [Always decide on a license for your code. If no licensing is stated, the default of "no license" is "no one can make copies or derivative works of your code".]
 
@@ -77,10 +77,20 @@ This repository provide a template to make your software project more compliant 
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-2. [Include a copy of the license text in a LICENSE file. See example in the LICENSE file in this repo.]
+2. [If an OSS license will be used. Edit the LICENSE file to match your case. It is a good practice to include  a copy of the license text in the LICENSE file.]
 
-### Citation
+## Copyright
+
+[TU Delft owns the copyrights of any software developed by TU Delft researchers. However, if the software is published as OSS, TU Delft agrees to transfer such rights to the Author(s) of the software. If using an OSS license, you can claimed the copyright by using the following text:]
+
+&copy; (YEAR) [Author(s)], Deflt, The Netherlands. 
+
+## Citation
 
 [Include a [CCF file (Citaion File Format)](https://citation-file-format.github.io/). See example in this repo: `CITATION.cff`. You can easily create the content of a CCF using [this tool](https://citation-file-format.github.io/cff-initializer-javascript/). ]
 
 [CCF files can be converted to a multitude of formats, including BibTex,  EndNote, codemeta, plain JSON, schema.org, RIS, and Zenodo JSON ]
+
+## Acknowlegdements
+
+[Name anyone who deserves it.]
