@@ -1,0 +1,25 @@
+# questions
+project_name:
+    type: str
+    help: What is your project name?
+
+project_purpose:
+    type: str
+    help: What is the purpose of your project?
+
+package_name:
+    type: str
+    help: What is your Python package name?
+
+module_name:
+    type: str
+    help: What is your Python module name?
+
+moduel_description:
+    type: str
+    help: Add a description for Python module. What is the module for?
+
+authors:
+    type: str
+    help: Who are the authors of your project? Separte multiple authors with commas
+

@@ -1,0 +1,15 @@
+# YAML 1.2
+---
+authors: 
+  -
+    family-names: Doe
+    given-names: John
+    orcid: "https://orcid.org/0000-0000-0000-0000 "
+cff-version: "1.1.0"
+keywords: 
+  - awesome
+  - software
+message: "If you use this software, please cite it using these metadata."
+title: "Awesome Code"
+version: "1.0"
+...
