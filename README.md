@@ -1,6 +1,6 @@
 # [Repository Title]
 
-*Delete this text belowed when using this template in your repository*
+*Delete this text below when using this template in your repository*
 
 **Purpose**
 
