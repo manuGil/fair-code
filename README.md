@@ -1,10 +1,10 @@
 # [Repository Title]
 
-*Delete this text below when using this template in your repository*
+*Delete the text in this section after reding it when using this template. Text between `[]` provides short descriptions of what is expected in each section, and should be deleted after after you write your own.*
 
 **Purpose**
 
-This repository provide a template to make your software project more compliant with the [FAIR principles.](https://fair-software.nl/)
+This repository provides a template to make your software project more compliant with the [FAIR principles.](https://fair-software.nl/) It adopts the recommendations made by the [TU Delft Guidelines on Research Software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf).
 
 **How to use this template**
 
@@ -49,13 +49,15 @@ This repository provide a template to make your software project more compliant 
 
 ### [Contributing Guidelines]
 
+Read the [contributing guidelines](CONTRIBUTING.md) to know how can you take part in this project. 
+
 [ Include a `CONTRIBUTING.md` files ]
 
 ## License
 
 1. [Always decide on a license for your code. If no licensing is stated, the default of "no license" is "no one can make copies or derivative works of your code".]
 
-[Under the current [guidelines or research software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf), TU Delft encourages the use of open source licenses for research software. Use the decision three below to determine if the software you intend to develop can be published as Open Source Software (OSS). You can also ask for help to the [Data Steward in your Faculty](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact)]
+[Under the current [guidelines on research software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf), TU Delft encourages the use of open source licenses for research software. Use the decision three below to determine if the software you intend to develop can be published as Open Source Software (OSS). You can also ask for help to the [Data Steward in your Faculty](https://www.tudelft.nl/library/research-data-management/r/support/data-stewardship/contact)]
 
 ![Open Source Software decision tree](img/decision-oss.png "Open source software decision tree")
 
