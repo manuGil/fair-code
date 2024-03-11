@@ -83,7 +83,7 @@ Read the [contributing guidelines](CONTRIBUTING.md) to know how can you take par
 
 ## Copyright
 
-[TU Delft owns the copyrights of any software developed by TU Delft researchers. However, if the software is published as OSS, TU Delft agrees to transfer such rights to the Author(s) of the software. If using an OSS license, you can claim the copyright by using the following text:]
+[TU Delft owns the copyrights of any software developed by TU Delft researchers. However, if the software is published as OSS under one of the licenses listed above, TU Delft agrees to transfer such rights to the Author(s) of the software. To claim the copyrights of a software include the text in [WAIVER](./WAIVER) in your license file. Then you can include the following text as part of this section:]
 
 &copy; (YEAR) [Author(s)], Delft, The Netherlands. 
 
