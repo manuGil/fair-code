@@ -1,0 +1,13 @@
+---
+
+citation:
+    type: bool
+    default: False
+    help: Do you want to create a citation file for "{{ software_name }}"?
+
+authors:
+    type: str
+    help: Who is the author of "{{ software_name }}"?
+    default: |- 
+        {{ owner }}
+    when: citation

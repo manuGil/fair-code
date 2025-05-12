@@ -1,0 +1,5 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v2.0.5
+_src_path: https://github.com/SS-NES/meta-template.git
+description: A template to make your software more FAIR compliant
+template_name: Fair Code

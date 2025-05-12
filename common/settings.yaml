@@ -1,0 +1,15 @@
+
+_subditectory: template
+
+_skip_if_exists:
+  - LICENSE
+  - CHANGELOG.md
+  - CODE_OF_CONDUCT.md
+  - .gitignore
+  - CITATION.CFF
+
+# default values
+defaults:
+  software_name: Awesome
+
+
