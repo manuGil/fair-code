@@ -7,12 +7,13 @@
 A template to make your software project FAIR and compliaint with the [TU Delft Guidelines.](https://zenodo.org/records/4629635)
 
 ## How to Use
-
 This template requires [Python 3.8+](https://www.python.org/downloads/) 
 
+### New Project
+If starting a new project from scratch, you can follow these steps:
 1. Use [pipx](https://pipx.pypa.io/stable/installation/) to install `copier`, and render the template.
 
-```bash
+```shell
 # intalling copier
 pipx install copier
 ```
@@ -23,7 +24,7 @@ pipx install copier
 copier copy https://github.com/manuGil/fair-code.git <path/to/project-directory>
 ```
 
-3. Inialize a Git repository in your templating project
+3. Finally, initize a Git repository in your project directory:
 
 ```shell
 cd <path/to/project-directory>
@@ -31,13 +32,44 @@ git init
 git add . 
 git commit -m 'initial commit'
 ```
+### Existing Project
+
+If you have an existing project and want to use this template, you can use the following command:
+
+1. Use [pipx](https://pipx.pypa.io/stable/installation/) to install `copier`, and render the template.
+
+```shell
+# intalling copier
+pipx install copier
+```
+
+2. Make sure your existing project is a Git repository. If not, you can initialize it with:
+
+```shell
+cd <path/to/existing-project-directory>
+git init    
+git add .
+git commit -m 'initial commit'
+```
+
+3. apply the template to your existing project:
+```shell
+copier copy https://github.com/manuGil/fair-code.git <path/to/exiting-project-directory> 
+```
+
+4. Finally, commit the changes to your exising project:
+
+```shell
+git add . 
+git commit -m 'apply template to existing project'
+```
 
 ## Contributing
 Read our [guidelines](CONTRIBUTING.md) to know how to be part of the development of this template. 
 
 ## License
 
-This templae is freely available under an [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
+This template is freely available under an [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
 
 ## Acknowledgements
 
