@@ -1,7 +1,7 @@
 # Contributing guidelines
 
-Any kind of contribution to **** is welcome, from a simple comment or a question, to a full fledged [pull request](https://help.github.com/articles/about-pull-requests/). 
-You can reach out the team via [illuminator@tudelft.nl](mailto:illuminator@tudelft.nl) 
+Any kind of contribution to **Fair Code** is welcome, from a simple comment or a question, to a full fledged [pull request](https://help.github.com/articles/about-pull-requests/). 
+You can reach out the maintainers via [m.g.garciaalvarez@tudelft.nl](mailto:m.g.garciaalvarez@tudelft.nl) 
 
 A contribution can be associated with the following cases:
 
