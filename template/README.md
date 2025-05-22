@@ -1,7 +1,7 @@
 
-# 
+#  FAIR Code Template
 
-
+A template to comply with the [TU Delft Software Guidelines](https://zenodo.org/records/4629635) for making your software project FAIR.
 
 ## Installation
 
@@ -10,7 +10,6 @@
 **Requirements** 
 - [List the software, OS, and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
 - [State any relevant hardware requirements.]
-
 
 
 ## License
