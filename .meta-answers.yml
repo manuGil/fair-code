@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v2.1.0
+_commit: v2.1.1
 _src_path: https://github.com/SS-NES/meta-template.git
 description: A template to make your software more FAIR compliant with the [TU Delft
     Software Guidelines](https://zenodo.org/records/4629635)
