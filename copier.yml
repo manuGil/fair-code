@@ -41,4 +41,4 @@ _exclude:
 
 ---
 # Inlcudes customized # UNCOMMENT TO INCLUDE CUSTOME FEATURES
-# !include custom/customize.yml
+!include custom/customize.yml
