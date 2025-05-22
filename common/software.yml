@@ -1,0 +1,15 @@
+---
+
+software_name:
+    type: str
+    help: What's the name of your software?
+
+software_purpose:
+    type: str
+    default: "The purpose of {{ software_name }} is ..."
+    help: What's the purpose of "{{ software_name}}?"
+
+owner:
+    type: str
+    default: "Iowner"
+    help: Who owns the software? (e.g. you, or your university, etc.)

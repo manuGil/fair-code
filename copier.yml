@@ -1,0 +1,44 @@
+# Exclude from the final project
+_subdirectory: template
+_exclude:
+    - ".git"
+    - ".github"
+    - ".gitignore"
+    - "includes"
+    - "copier.yml"
+    - "project"
+    - ".meta-answers.yml"
+    - "CODE_OF_CONDUCT.md"
+    - "CONTRIBUTING.md"
+
+---
+# Template settings
+!include common/settings.yml
+
+---
+# Common questions about the software project
+!include common/software.yml
+
+---
+# Common questions about software community
+!include common/community.yml
+
+---
+# Common questions about licensing
+!include common/licensing.yml
+
+---
+# Common questions about citation
+!include common/citation.yml
+
+---
+# Template specific questions 
+!include project/custom.yml
+
+---
+# Template User Messages
+!include common/messages.yml
+
+---
+# Inlcudes customized # UNCOMMENT TO INCLUDE CUSTOME FEATURES
+!include custom/customize.yml

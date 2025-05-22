@@ -1,0 +1,31 @@
+---
+
+copyright_holder:
+    type: str
+    default: |- 
+        {{ owner }}
+    help: Copyright holder
+
+copyright_year:
+    type: int
+    default: "{{ '%Y' | strftime }}"
+    help: Copyright year
+
+software_license:
+  default: MIT License
+  choices:
+    - Apache Software License
+    - Boost Software License 1.0 (BSL-1.0)
+    - CC0 Public Domain Dedication (CC0 1.0)
+    - European Union Public License 1.2 (EUPL-1.2)
+    - GNU Affero General Public License v3
+    - GNU General Public License v2 (GPLv2)
+    - GNU General Public License v3 (GPLv3)
+    - GNU Lesser General Public License v3 (LGPLv3)
+    - MIT License
+    - Mozilla Public License 2.0 (MPL 2.0)
+    - No License
+    - The Unlicense (Unlicense)
+    - The 3-Clause DSB License (DBS-3-Clause)
+  help: Choose a license for "{{ software_name }}" (e.g. "MIT", "GPL-3.0").
+  type: str

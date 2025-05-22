@@ -1,0 +1,16 @@
+---
+
+community:
+    type: bool
+    default: False
+    help: Do you intent to have a community around "{{ software_name }}"?
+
+code_of_conduct:
+    type: bool
+    default: False
+    help: Do you want to include a code of conduct for "{{ software_name }}"?
+    
+contact_email:
+    type: str
+    help: What's the contact email for the code of conduct"?
+    when: "{{ code_of_conduct == True }}"

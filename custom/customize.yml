@@ -1,0 +1,28 @@
+---
+# Include questions and settings for your 'template'
+
+
+oss_waiver:
+    type: bool
+    default: false
+    help: Do you want to use the waiver on Open Source Software?
+
+waiver_faculty:
+    type: str
+    choices:
+        - "Aerospace Engineering"
+        - "Applied Sciences"
+        - "Architecture and Build Environment"
+        - "Civil Engineering and Geosciences"
+        - "Electrical Engineering, Mathematics and Computer Science"
+        - "Industrial Design Engineering"
+        - "Mechanical Engineering"
+        - "Technology, Policy and Management"
+    default: "Aerospace Engineering"
+    help: Do you intent to have a community around "{{ software_name }}"?
+    when: "{{ oss_waiver == True }}"
+
+waiver_dean:
+    type: str
+    help: Provide the name of the dean of the faculty
+    when: "{{ oss_waiver == True }}"
