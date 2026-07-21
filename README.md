@@ -20,7 +20,7 @@ pipx install copier
 2. Start a new software project using this template:
 
 ```python
-copier copy https://github.com/manuGil/fair-code.git <path/to/project-directory>
+copier copy gh:manuGil/fair-code.git <path/to/project-directory>
 ```
 
 
@@ -54,7 +54,7 @@ git commit -m 'initial commit'
 
 3. apply the template to your existing project:
 ```shell
-copier copy https://github.com/manuGil/fair-code.git <path/to/exiting-project-directory> 
+copier copy gh:manuGil/fair-code.git <path/to/exiting-project-directory> 
 ```
 
 4. Finally, commit the changes to your exising project:
@@ -63,6 +63,15 @@ copier copy https://github.com/manuGil/fair-code.git <path/to/exiting-project-di
 git add . 
 git commit -m 'apply template to existing project'
 ```
+
+### Update project
+
+The commmand below can be used to update a project. For example change answers or apply or remove templating components.
+
+```shell
+# In the root directory
+copier update -a .copier-answers.yml
+``` 
 
 ## Contributing
 Read our [guidelines](CONTRIBUTING.md) to know how to be part of the development of this template. 
